@@ -32,7 +32,7 @@ ul > a, ul > img {
     padding: 0 8px;
 }
 
-img {
+header-img {
     color: gray;
 }
 
@@ -42,3 +42,25 @@ img {
     cursor: pointer;
 }
 
+button {
+    border: none;
+    background-color: rgb(43, 125, 233);
+    border-radius: 4px;
+    padding: 9px 23px;
+    }
+
+button:hover {
+    box-shadow: rgba(66, 133, 244, 0.3) 0px 1px 2px 0px, rgba(66, 133, 244, 0.15) 0px 1px 3px 0px;
+    opacity: 2; 
+    }
+
+
+
+button > a {
+    color:white;
+    text-align: center;
+}
+
+button > a:hover {
+    text-decoration: none;
+}
