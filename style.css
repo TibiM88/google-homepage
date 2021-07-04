@@ -125,6 +125,28 @@ main {
     text-align: center;
 }
 
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vh;
+}
+
+.footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+    align-items: center;
+}
+
+
 
 
 
