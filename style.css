@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul > a, ul > img {
+    padding: 0 8px;
+}
+
+img {
+    color: gray;
+}
+
+.header-img:hover {
+    box-shadow: 0 0 10px gainsboro;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
