@@ -129,22 +129,71 @@ footer {
     background-color: #f2f2f2;
     position: fixed;
     bottom: 0;
-    width: 100vh;
+    width: 200vh;
 }
 
-.footer-left {
+#footer-left {
     display: flex;
     justify-self: start;
     padding-left: 20px;
     align-items: center;
 }
 
-.footer-right {
+#footer-right {
     display: flex;
     justify-content: end;
     margin-left: 20px;
     align-items: center;
 }
+
+@media (max-width: 630px){
+
+    #footer-nav {
+        flex-direction: column;
+    }
+
+    #footer-left {
+        justify-content: center;
+    }
+
+    footer-right {
+        justify-content: center;
+    }
+
+    .my-input-container {
+        width: 95vh;
+    }
+}
+
+@media (max-width:522px){
+    body {
+        overflow: hidden;
+    }
+
+    main {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-height:570px) and (max-width: 630px){
+    body {
+        overflow: hidden;
+    }
+
+    main {
+        margin-bottom: 13px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+
 
 
 
